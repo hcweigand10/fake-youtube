@@ -1,0 +1,16 @@
+.title {
+    font-size: 10px;
+}
+
+.description {
+    font-size: 7px
+}
+
+.thumbnail {
+    height: 60px;
+    width: 80px;
+}
+
+.segment {
+    cursor: pointer;
+}
