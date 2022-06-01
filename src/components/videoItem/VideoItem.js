@@ -4,7 +4,6 @@ import "./VideoItem.css"
 const VideoItem = (props) => {
     const onSelect = () => {
         props.onSelect(props.index)
-        console.log(props.index)
     }
     return (
         <div key={props.key} onClick={onSelect} className="ui grid segment">
